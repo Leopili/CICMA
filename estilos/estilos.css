@@ -1,0 +1,454 @@
+body{
+    background:#2765AF url('../imagenes/body_bg.jpg') repeat-x 0 0;
+    background-repeat: repeat-y;
+    color:#000000;
+    margin:20px 0;
+    padding:0;
+    font-family:"Trebuchet MS", verdana, arial, "Times New Roman", serif;
+    font-size:90%;
+}
+
+.contenedor-general {
+	width: 90%;
+	margin:auto;
+}
+
+#header .menu {
+	display: flex;
+	justify-content: space-between;
+	background-color: #fff;
+	border-bottom: 1px solid #99650A;
+}
+
+#header .logo {
+	width: 33%;
+	margin-top: 10px;
+}
+
+#header .texto {
+    text-align: center;
+    font-family: 'Raleway', sans-serif !important;
+    font-style: italic;
+    color: #99650A;
+    font-size: 20px;
+    width: 60%;
+    margin-top: 15px;
+}
+
+#header p {
+	width: 50%;
+	margin-left: 100px;
+}
+
+#header .redes {
+	width: 20%;
+	margin-right: 60px;
+}
+
+#header .redes ul {
+	display: flex;
+	list-style: none;
+	margin-top: 50px;
+}
+
+#header .logo-redes {
+	height: 37px;
+	width: 37px;
+	margin-right: 40px;
+}
+
+#header .twitter {
+	height: 50px;
+	width: 50px;
+	margin-top: -7px;
+	margin-right: 32px;
+}
+
+
+#header .nav {
+	padding: 14.5px;
+	background: #fff;
+}
+
+#header .nav ul {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+
+}
+
+#header .nav ul li a {
+	color: #225799;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 0 20px;
+}
+
+#header .nav ul li a:hover {
+	color: #fff;
+	background-color: #99650A;
+}
+
+#imagenes img {
+	width: 100%;
+	height: 250px;
+}
+
+#bienvenido {
+	background: #EEEEF1;
+	margin-top: -11px;
+}
+
+#bienvenido .contenedor-bienvenido {
+	display: flex;
+	justify-content: space-between;
+}
+
+#bienvenido .contenedor-izquierda {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	border-right: 2px solid #ddd;
+	padding-right: 35px;
+}
+
+#bienvenido h1 {
+	color: #1c58b6;
+	font-weight: normal;
+	font-size: 30px;
+	text-align: center;
+	margin: 15px 0;
+	font-family: 'Merriweather';
+}
+
+#bienvenido h2 {
+    color: #4A4A8A;
+    font-size: 20px;
+    padding: 0px;
+    margin: 3px;
+}
+
+#bienvenido p {
+	font-family: 'Raleway', sans-serif;
+	color: #47506e;
+	margin: 0 10px;
+	padding: 0 0 15px 0;
+	text-align: justify;
+	line-height: 160%;
+	font-size: 15px;
+}
+
+.contenedor-izquierda .imagenes {
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+	margin-left: 30px;
+}
+
+.imagenes img {
+	height: 130px;
+}
+
+#bienvenido .contenedor-derecha {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#bienvenido .asociate, #bienvenido .faima  {
+	width: 50%;
+	padding: 20px 20px 5px 20px;
+    background: #FEFFD5;
+	border: 1px solid #FFEB70;
+    font-size: 90%;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#bienvenido .faima  {
+	margin-bottom: 20px;
+}
+#asociate {
+    font-family: 'Raleway', sans-serif;
+    color: #0808CC !important;
+    font-size: 2em !important;
+}
+
+#faima {
+	font-size: 25px !important;
+	color: #23219d !important;
+}
+
+#asociate span {
+	font-size: 30px;
+}
+
+
+#footer{
+    font-size:80%;
+    background:#DADADA;
+    padding:20px;
+    text-align:center;
+    border-top:2px solid #2765AF;
+}
+
+#footer a{
+    color:#000000;
+    font-weight:bold;
+    padding:0 5px 0 0;
+    text-decoration: none;   
+}
+
+#copyright {
+    color: blue;
+}
+
+.contenedor-izquierda-institucional {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	border-right: 2px solid #ddd;
+	padding-right: 35px;
+	margin-left: 20px;
+}
+
+#sobre-cicma, #objetivos, #servicios {
+	margin-top: 10px !important;
+	color: #1c58b6 !important;
+	margin-bottom: 10px !important;
+}
+
+
+#institucional li {
+	margin: 5px 0;
+	color: #47506e;
+}
+
+#comision-directiva {
+	height: 500px;
+	width: 500px;
+	margin-bottom: 10px;
+	margin-left: 80px;
+}
+
+#bienvenido .contenedor-derecha-institucional {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 40%;
+}
+
+.derecha {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: -400px;
+}
+
+.derecha-noticias {
+	margin-top: -150px;
+}
+
+
+#newsItem {
+    color: #225799 !important;
+    margin: 0 0 10px 0 !important;
+    padding: 0 !important;
+    font-size: 150% !important;
+    font-weight: bold !important;
+    text-align: center !important;
+}
+
+#bienvenido .contenedor-derecha-institucional h4 {
+	font-weight: bolder;
+	font-size: 14px;
+}
+
+#bienvenido .contenedor-derecha-institucional h5 {
+	font-weight: bold;
+	font-size: 13px;
+	color: #225799;
+}
+
+p.fecha {
+	font-size: 13px !important;
+}
+
+.noticia {
+	margin-top: 20px;
+}
+
+h2.noticias {
+	color: #1c58b6 !important;
+	font-family: "Trebuchet MS", verdana, arial, "Times New Roman", serif;
+	line-height: 130%;
+	font-weight: normal;
+	font-size: 170%;
+}
+
+.imagen-noticia {
+	width: 60%;
+	margin-left: 10px;
+}
+
+.contacto {
+	display: flex;
+	justify-content: space-around;
+}
+
+#mapa{
+    border-right: solid 1px #4C4CF2;
+    border-bottom: solid 2px #4C4CF2;
+    box-shadow: 3px 3px #755B27;
+    height: 100%;
+    margin: 20px 0;    
+}
+
+h3.cont {
+    color: #4A4A8A;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.datos {
+	border-right: 2px solid #ddd;
+	padding-right: 150px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.datos span {
+    margin: 8px 0;
+    display: inline-block;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+
+.menu-icon {
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 275px;
+}
+
+#header .menu {
+    flex-direction: column;
+}
+
+#header .texto {
+    width: 100%;
+    margin-top: 0px;
+}
+
+#header p {
+    width: 90%;
+    margin: auto;
+}
+
+#header .redes {
+    width: 100%;
+    margin-right: 0;
+}
+
+#header .redes ul {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#header .nav {
+    background: #99650A;
+}
+
+nav {
+    position: absolute;
+    top: 310px;
+    left: 19px;
+    width: 82%;
+    display: none;
+}
+
+#header .nav ul {
+    display: block;
+    margin: 23px 20px;
+}
+
+#header .nav ul li a {
+	padding: 10px 34px;
+    display: inline-block;
+    color: #fff;
+}
+
+#imagenes img {
+    height: 175px;
+}
+
+#bienvenido .contenedor-bienvenido {
+    display: flex;
+    flex-direction: column;
+}
+#bienvenido .contenedor-izquierda {
+    width: 100%;
+}
+
+.contenedor-izquierda .imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+}
+
+#bienvenido .asociate, #bienvenido .faima {
+    width: 75%;
+}
+
+#footer {
+padding: 10px;
+}
+
+.contenedor-izquierda-institucional {
+    width: 95%;
+    padding-right: 0px;
+    margin-left: 5px;
+}
+
+#comision-directiva {
+    height: 250px;
+    width: 250px;    
+    margin-left: 40px;
+}
+
+#bienvenido .contenedor-derecha-institucional {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.derecha {
+    margin-top: 0;
+}
+
+.derecha-noticias {
+    margin-top: 0;
+}
+
+.contacto {
+    flex-direction: column;
+}
+
+.datos {
+    padding-right: 0px;
+    text-align: center;
+}
+
+
+}
